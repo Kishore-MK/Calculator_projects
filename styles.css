@@ -1,0 +1,101 @@
+* {
+    font-family: sans-serif;
+  }
+  .main {
+    background-color: rgba(207, 207, 207, 0.911);
+    width: 435px;
+    height: 600px;
+    padding: 40px;
+  }
+  .main .cal {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    width: 435px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  .display {
+    height: 140px;
+  }
+  
+  .display .upper {
+    width: 410px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 40px;
+    outline: none;
+  }
+  .display .lower {
+    width: 410px;
+    height: 75px;
+    border: none;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 520;
+    outline: none;
+  }
+  .main .cal .buttons {
+    margin-left: 20px;
+  }
+  .main .cal .buttons .row {
+    margin: 15px 0 0 0;
+  }
+  
+  .main .cal .buttons .row .numbutton {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    font-weight: 520;
+    margin: 0 5px 0 5px;
+  }
+  
+  .buttons .row .operator {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 34px;
+    color: rgba(0, 153, 255, 0.973);
+    margin: 0 5px 0 5px;
+  }
+  
+  .buttons .row .clearall {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    color: rgba(0, 153, 255, 0.973);
+    margin: 0 5px 0 5px;
+  }
+  .buttons .row .del {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    color: rgba(0, 153, 255, 0.973);
+    margin: 0 5px 0 5px;
+  }
+  .buttons .row .equalto {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 34px;
+    color: rgba(0, 153, 255, 0.973);
+    margin: 0 5px 0 5px;
+  }
+  .buttons .row .dotbutton {
+    width: 85px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 34px;
+    margin: 0 5px 0 5px;
+  }
+  

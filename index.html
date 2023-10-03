@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator by MK</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="cal">
+        <div class="display">
+          <div class="upper">
+            <input type="text" class="upper" id="upper" readonly="readonly" value=""/>
+          </div>
+          <div class="lower">
+            <input type="text" class="lower" id="lower" readonly="readonly" value=""/>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="row">
+            <input type="button" class="clearall" value="AC" onclick="ac()" />
+            <input type="button" class="del" value="DEL" onclick="del()" />
+            <input
+              type="button"
+              class="operator"
+              value="%"
+              onclick="num('%')"
+            />
+            <input
+              type="button" class="operator" value="/" onclick="num('/')" />
+          </div>
+          <div class="row">
+            <input type="button" class="numbutton" value="7" onclick="num('7')" />
+            <input type="button" class="numbutton" value="8" onclick="num('8')" />
+            <input type="button" class="numbutton" value="9" onclick="num('9')" />
+            <input type="button" class="operator" value="*" onclick="num('*')" />
+          </div>
+          <div class="row">
+            <input
+              type="button"
+              class="numbutton"
+              value="4"
+              onclick="num('4')"
+            />
+            <input
+              type="button"
+              class="numbutton"
+              value="5"
+              onclick="num('5')"
+            />
+
+            <input
+              type="button"
+              class="numbutton"
+              value="6"
+              onclick="num('6')"
+            />
+
+            <input
+              type="button"
+              class="operator"
+              value="-"
+              onclick="num('-')"
+            />
+          </div>
+          <div class="row">
+            <input
+              type="button"
+              class="numbutton"
+              value="1"
+              onclick="num('1')"
+            />
+            <input
+              type="button"
+              class="numbutton"
+              value="2"
+              onclick="num('2')"
+            />
+            <input
+              type="button"
+              class="numbutton"
+              value="3"
+              onclick="num('3')"
+            />
+
+            <input
+              type="button"
+              class="operator"
+              value="+"
+              onclick="num('+')"
+            />
+          </div>
+          <div class="row">
+            <input
+              type="button"
+              class="numbutton"
+              value="0"
+              onclick="num('0')"
+            />
+            <input
+              type="button"
+              class="numbutton"
+              value="00"
+              onclick="num('00')"
+            />
+            <input
+              type="button"
+              class="dotbutton"
+              value="."
+              onclick="num('.')"
+            />
+            <input type="button" class="equalto" value="=" onclick="equal()" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
